@@ -1,0 +1,14 @@
+{
+	"name" : "YouBoost",
+	"version" : "1.0",
+	"manifest_version" : 2,
+
+	"description" : "Boosts youtube's audio (Useful for low audio videos)",
+
+	"content_scripts" : [
+		{
+			"matches" : ["https://*.youtube.com/*"],
+			"js" : ["app.js"]
+		}
+	]
+}
